@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Home Page</title>
+  <style>
+    html, body { height: 100%; margin: 0; }
+    .layout {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      height: 100vh;
+      width: 100%;
+    }
+    iframe { border: none; width: 100%; height: 100%; }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <iframe src="menu.html" name="menu" title="Menu"></iframe>
+    <iframe src="main.html" name="main" title="Main content"></iframe>
+  </div>
+</body>
+</html>
